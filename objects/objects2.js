@@ -43,3 +43,22 @@ console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
+
+
+//de structuring
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+const {courseInstructor: instructor} = course;
+console.log(instructor);
+
+//API Introduction
+// {
+//     "name":"hitesh",
+//    " coursename": "js in hindi",
+//     "price": "free",
+// }
+
+
